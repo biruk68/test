@@ -1,0 +1,145 @@
+
+body {
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bkkk.jpg);
+    padding: 100px;
+    padding-top: 10px;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(143, 175, 188);
+    color: white;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: navajowhite;
+    background-color: rgb(204, 78, 78);
+}
+
+
+
+.svgClass {
+    background-color:navajowhite;
+    float:left;
+    width:70%;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+polygon{
+    fill:white; 
+    transition: 1s fill;
+}
+polygon:hover {
+    fill: burlywood;
+     
+}
+.lideta { 
+    stroke:yellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(211, 22, 22);
+    fill-opacity: 50%;
+}
+
+.kirkos{
+    stroke:greenyellow;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(5, 75, 14);
+    fill-opacity: 10%;}
+.nifas-silk{
+    stroke:rgb(32, 128, 218);
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(55, 15, 109); 
+    fill-opacity: 50%;
+}
+
+.akaki-kaliti {
+    stroke:rgb(250, 110, 238);
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(155, 32, 145);
+    fill-opacity: 10%;
+}
+
+.yeka{
+    stroke:lawngreen;
+    stroke-width: 2px;
+    stroke-dasharray: 3;
+    fill:rgb(127, 233, 247);
+    fill-opacity: 10%;
+}
+
+.bole{
+    stroke:green;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(253, 114, 179); 
+    fill-opacity: 10%;
+}
+
+.kolfe-keraniyo{
+    stroke: khaki;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(109, 63, 63); 
+    fill-opacity: 50%;
+}
+
+.addis-ketema{
+    stroke:palegoldenrod;
+    stroke-width: 2px;
+    stroke-dasharray: 3;
+    fill:rgb(240, 205, 108);
+    fill-opacity: 50%;
+}
+
+.arada{stroke:peru;
+    stroke-width: 2px;
+    stroke-dasharray: 3; 
+    fill:rgb(54, 58, 114); 
+    fill-opacity: 50%;
+}
+
+.gulele{
+    stroke:orange;
+    stroke-width: 2px; 
+    stroke-dasharray: 3; 
+    fill:rgb(28, 7, 87);
+    fill-opacity: 50%;
+}
+
+.removed{
+display: none;
+}
+.button{
+
+    position: relative;
+    color: rgb(202, 84, 84);
+    font-size: 300px;
+    background:navajowhite;
+    border:none;
+    outline: none;
+    left: 0%;
+    width: 300px;
+    text-align: left;
+}
+.button:hover{
+    fill: rgb(221, 83, 83);
+}
+#sidebar{
+    text-align: left;
+    float:left;
+    width:30%;
+    background:navajowhite;
+    color:rgb(170, 62, 62);
+    padding:0px;
+    box-sizing:border-box;
+}
+
+#removed{ 
+    display: none; 
+} 
